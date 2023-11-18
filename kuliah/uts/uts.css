@@ -1,0 +1,28 @@
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 600px;
+    text-align: center;
+    position: absolute;
+    border: 1px solid #333;
+}
+.header{
+    background: #333;
+    color: #ddd;
+    padding: 25px;
+}
+.main{
+    padding: 25px;
+    text-align: start;
+}
+.footer{
+    background: #000;
+    color: #fff;
+    padding: 25px;
+}
