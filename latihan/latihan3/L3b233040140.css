@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background-color: aqua;
 }
@@ -32,4 +33,28 @@ h4{
 .paragraf2{
     text-align: center;
     line-height: 2;
+=======
+body{
+    background-color: aqua;
+    font-family: Georgia;
+
+}
+h1{
+    font-family: comic sans ms; 
+    font-size: 60 px;
+    color: darkblue;
+}
+h4{
+    text-align: right;
+    font-style: italic;
+}
+p{
+    text-align: justify;
+}
+p.p1{
+    color: orange;
+}
+h3 a{
+    color: white;
+>>>>>>> 88edb82de88754f262f5fc4f716b68a6d3839781
 }
