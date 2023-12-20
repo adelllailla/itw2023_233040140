@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0;
+    list-style-type: none;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+}
+.navigation ul {
+    display: flex;
+    gap: 10px;
+    color: #fff;
+}
+.menu {
+    color: #fff;
+    text-decoration: none;
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    .navigation .menu{
+        display: block;
+    }
+    .navigation ul {
+        display: none;
+    }
+}
